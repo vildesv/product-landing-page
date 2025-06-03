@@ -1,0 +1,167 @@
+/* Reset & Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+/* Header/Nav */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ffcb05;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  min-height: 80px;
+  z-index: 1000;
+}
+
+#header-img {
+  height: 50px;
+}
+
+#nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: #3b4cca;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.nav-link:hover {
+  background-color: #3b4cca;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Main Content */
+main {
+  padding-top: 100px;
+}
+
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+  scroll-margin-top: 100px;
+}
+
+/* Features + Video side-by-side */
+.features-video-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.side-section {
+  flex: 1 1 300px;
+  max-width: 600px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+/* Video */
+.video-wrapper {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Pricing */
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.price-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  transition: transform 0.2s;
+}
+
+.price-card:hover {
+  transform: scale(1.05);
+}
+
+.price-card h3 {
+  color: #cc0000;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+#email {
+  padding: 0.6rem;
+  width: 260px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+#submit {
+  padding: 0.5rem 1.5rem;
+  background: #3b4cca;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#submit:hover {
+  background: #2a3791;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .features-video-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
