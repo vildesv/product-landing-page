@@ -1,6 +1,8 @@
 ## [Product Landing Page](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page)
-This is one of the required projects to earn the Responsive Web Design Certification from freeCodeCamp.
+This is one of the required projects to earn the [Responsive Web Design Certification](https://www.freecodecamp.org/learn/2022/responsive-web-design/) from freeCodeCamp.
 For this project, you will build a product landing page to market a product of your choice.
+
+---
 
 **Objective**: Build an app that is functionally similar to https://product-landing-page.freecodecamp.rocks. Do not copy this demo project.
 
