@@ -1,6 +1,6 @@
-## Product Landing Page
-Throughout the Responsive Web Design course, there are some projects that is required to complete in order to earn the certification.
-This is the fourth required project and for this project, I built a product landing page to market a product of my choice.
+## [Product Landing Page](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page)
+This is one of the required projects to earn the Responsive Web Design Certification from freeCodeCamp.
+For this project, you will build a product landing page to market a product of your choice.
 
 **Objective**: Build an app that is functionally similar to https://product-landing-page.freecodecamp.rocks. Do not copy this demo project.
 
@@ -24,5 +24,3 @@ This is the fourth required project and for this project, I built a product land
 Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
 
 **Note**: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
-
-[Responsive Web Design - Product Landing Page](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page)
